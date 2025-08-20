@@ -14,8 +14,8 @@ const cartoons = [
 ];
 
 //Inicializamos variables de apoyo:
-let nombre = "";
-let debut = 5000;
+let nombre = null;
+let debut = Infinity;
 
 //Recorremos el array "cartoons". Si el nuevo elemento del array tiene un debut inferior al anterior, guardamos el nombre y el año en nuestras variables de apoyo:
 for(const cartoon of cartoons){
