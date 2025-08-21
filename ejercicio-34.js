@@ -17,12 +17,16 @@ function averageMovieDuration(movies) {
     let contador = 0;
     let suma = 0;
     let promedio = 0;
+    //Recorremos el array "movies" para sumar la duración total y saber cuántas películas hay:
     for(const movie of movies){
         suma += movie.duration;
         contador += +1;
     }
+    //Calculamos la duración promeio:
     promedio = suma / contador;
+    //La función devuelve el promedio:
     return promedio;
 }
 
+//Imprimir por pantalla la duración promedio de todas las películas:
 console.log(averageMovieDuration(movies));
