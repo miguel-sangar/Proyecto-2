@@ -22,6 +22,7 @@ function findArrayIndex(array, text) {
     return -1;
 }
 
+//Eliminar indice encontrado por la función 'findArrayIndex':
 function removeItem(array,text){
     //Llamamos a la función 'findArrayIndex' y guardamos el resultado en 'indice':
     let indice = findArrayIndex(mainCharacters, "Obi-Wan");
